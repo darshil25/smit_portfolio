@@ -1,10 +1,11 @@
+// Services.jsx
 import React from "react";
-import Skills from "../layouts/SkillsCard";
+import ServicesCard from "../layouts/ServicesCard";
 import { BiCodeAlt } from "react-icons/bi";
 import { BsAndroid } from "react-icons/bs";
 import { AiOutlineCodepen } from "react-icons/ai";
 
-const Skills = () => {
+const Services = () => {
   const icon1 = <BiCodeAlt size={55} className="text-brightColor" />;
   const icon2 = <BsAndroid size={55} className="text-brightColor" />;
   const icon3 = <AiOutlineCodepen size={55} className="text-brightColor" />;
@@ -16,24 +17,12 @@ const Skills = () => {
       </h1>
 
       <div className="flex flex-wrap items-center justify-center gap-5 mt-4">
-        <SkillsCard
-          icon={icon1}
-          title="Web Development"
-          description="Blog, E-commerce, Responsive Designs"
-        />
-        <SkillsCard
-          icon={icon2}
-          title="App Development"
-          description="iOS, Android, Cross-Platform Apps"
-        />
-        <SkillsCard
-          icon={icon3}
-          title="Freelancing"
-          description="Custom Projects, Client Satisfaction"
-        />
+        <ServicesCard icon={icon1} title="Web Development" description="Html, CSS, JavaScript, React" />
+        <ServicesCard icon={icon2} title="App Development" description="Android" />
+        <ServicesCard icon={icon3} title="Data Structures" description="Java" />
       </div>
     </div>
   );
 };
 
-export default Skills;
+export default Services;

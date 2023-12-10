@@ -44,13 +44,13 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="skills"
+              to="services"
               spy={true}
               smooth={true}
               duration={500}
               className="hover:text-brightColor transition-all cursor-pointer"
             >
-              Skills
+              Services
             </Link>
 
             <Link
@@ -120,14 +120,14 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="skills"
+            to="services"
             spy={true}
             smooth={true}
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Skills
+            Services
           </Link>
 
           <Link
