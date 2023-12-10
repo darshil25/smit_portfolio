@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
-        <h1 className="text-3xl font-semibold hover:text-brightColor transition-all cursor-pointer" onClick={() => handleClick('https://github.com/darshil25')}>Smit Patel</h1>
+        <h1 className="text-3xl font-semibold hover:text-brightColor transition-all cursor-pointer" onClick={() => handleClick('https://github.com/SMITP6875')}>Smit Patel</h1>
       </div>
 
     </div>
