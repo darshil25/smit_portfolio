@@ -44,13 +44,13 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="services"
+              to="skills"
               spy={true}
               smooth={true}
               duration={500}
               className="hover:text-brightColor transition-all cursor-pointer"
             >
-              Services
+              Skills
             </Link>
 
             <Link

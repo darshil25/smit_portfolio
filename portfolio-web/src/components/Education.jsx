@@ -6,10 +6,10 @@ const Education = () => {
   const educationData = [
     {
       title: "Bachelor of Technology",
-      degree: "Computer Science and Engineering",
+      degree: "Computer Science and Engineering(Core)",
       duration: "June 2020 - Ongoing",
       institute: "Vellore Institute of Technology - Bhopal",
-      grade: "8.19%",
+      grade: "Grade : 8.19",
       certificate: "Certificate of Web Training",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolor incidunt quo, nulla dolore molestiae esse animi hic, placeat velit omnis quasi officia suscipit. Natus dignissimos reiciendis ut assumenda corrupti?",
@@ -18,13 +18,13 @@ const Education = () => {
       title: "Class XII",
       institute: "Shree G.K. Dholakiya School - Rajkot",
       duration: "May 2019",
-      grade: "73.84%",
+      grade: "Grade : 73.84%",
     },
     {
       title: "Class X",
       institute: "Shree P.V. MODI HIGH SCHOOL - Rajkot",
       duration: "May 2017",
-      grade: "90.50%",
+      grade: "Grade : 90.50%",
     },
   ];
 

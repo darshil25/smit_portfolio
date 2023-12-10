@@ -16,11 +16,9 @@ const About = () => {
 
       <div className=" -mt-10">
         <div className=" mb-10">
-          <h2 className=" text-3xl font-semibold">I'm Alex Anderson</h2>
+          <h2 className=" text-3xl font-semibold">I'm Smit Patel</h2>
           <p className=" mt-4 lg:mt-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit officia quod sint consequuntur cupiditate sed iste
-            impedit asperiores quibusdam soluta.
+          I am a B. Tech (CSE) student at VIT-Bhopal, skilled in Microsoft Excel and PowerPoint, with a keen interest in data analytics. VIT-Bhopal's Data Analytics program integrates mathematics, statistics, and computer science for hands-on experience in exploratory data analysis and visualization.
           </p>
         </div>
 
