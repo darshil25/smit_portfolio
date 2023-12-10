@@ -23,8 +23,6 @@ const Home = () => {
         <a href="https://drive.google.com/file/d/1hvHG1fq8_Zz_nJv8AcSZ9etzyarcNiFp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <Button title="Download CV" onClick={handleDownloadCV} />
         </a>
-        
-
       </div>
 
       <div className="mt-20">

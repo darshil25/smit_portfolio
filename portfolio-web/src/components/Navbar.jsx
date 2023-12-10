@@ -19,7 +19,7 @@ const Navbar = () => {
       <div>
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className=" flex flex-row items-center cursor-pointer">
-            <h1 className=" text-3xl font-semibold">Alex.</h1>
+            <h1 className=" text-3xl font-semibold">Smit.</h1>
           </div>
 
           <nav className="hidden lg:flex flex-row items-center text-lg font-medium gap-8">
