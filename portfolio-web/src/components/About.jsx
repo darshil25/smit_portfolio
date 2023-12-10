@@ -29,6 +29,8 @@ const About = () => {
             <SkillCard title="Html" width={skill1} val="95%" />
             <SkillCard title="CSS" width={skill2} val="85%" />
             <SkillCard title="JavaScript" width={skill3} val="70%" />
+            <SkillCard title="React" width={skill4} val="60%" />
+            <SkillCard title="Java" width={skill5} val="73%" />
           </div>
         </div>
       </div>
